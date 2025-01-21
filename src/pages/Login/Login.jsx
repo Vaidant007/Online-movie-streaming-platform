@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Login.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/name.png'
 import {login, signup} from '../../firebase'
 import netflix_spinner from '../../assets/netflix_spinner.gif'
 const Login = () => {
@@ -49,7 +49,7 @@ const user_auth=async (event)=>{
         
       <div className="form-switch">
 
-        {signState==="Sign In"?<p>New to Netflix? <span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>:<p>Already have account? <span onClick={()=>{setSignState("Sign In")}}>Sign in Now</span></p>}
+        {signState==="Sign In"?<p>New to Streamio? <span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>:<p>Already have account? <span onClick={()=>{setSignState("Sign In")}}>Sign in Now</span></p>}
         
         
       </div>

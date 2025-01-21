@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/nam.png'
 import max from '../../assets/max.png'
 import search_icon from '../../assets/search_icon.svg'
 import bell_icon from '../../assets/bell_icon.svg'
@@ -42,7 +42,7 @@ useEffect(()=>{
             <img src={profile_img} alt="" className='profile'/>
             <img src={caret_icon} alt="" />
             <div className="dropdown">
-                <p onClick={()=>{logout()}}>Sign Out Of Arora Stream</p>
+                <p onClick={()=>{logout()}}>Sign Out Of Streamio</p>
             </div>
          </div>
          </div>
